@@ -5,6 +5,12 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxi", "OnlineTaxi\OnlineTaxi.csproj", "{6DE55B78-9EA4-45BB-862A-51831062514D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxi.DataAccess", "OnlineTaxi.DataAccess\OnlineTaxi.DataAccess.csproj", "{DF37F8E0-AD0F-442A-AA35-C69251D5E4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxi.Models", "OnlineTaxi.Models\OnlineTaxi.Models.csproj", "{ABB70B6F-A04E-4B26-9D7C-9E78ABB102CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineTaxi.Utility", "OnlineTaxi.Utility\OnlineTaxi.Utility.csproj", "{5839EB64-CF08-4EAE-BA30-4223C52C612E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{6DE55B78-9EA4-45BB-862A-51831062514D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE55B78-9EA4-45BB-862A-51831062514D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE55B78-9EA4-45BB-862A-51831062514D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF37F8E0-AD0F-442A-AA35-C69251D5E4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF37F8E0-AD0F-442A-AA35-C69251D5E4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF37F8E0-AD0F-442A-AA35-C69251D5E4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF37F8E0-AD0F-442A-AA35-C69251D5E4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB70B6F-A04E-4B26-9D7C-9E78ABB102CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB70B6F-A04E-4B26-9D7C-9E78ABB102CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB70B6F-A04E-4B26-9D7C-9E78ABB102CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB70B6F-A04E-4B26-9D7C-9E78ABB102CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5839EB64-CF08-4EAE-BA30-4223C52C612E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5839EB64-CF08-4EAE-BA30-4223C52C612E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5839EB64-CF08-4EAE-BA30-4223C52C612E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5839EB64-CF08-4EAE-BA30-4223C52C612E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
